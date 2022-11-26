@@ -19,5 +19,46 @@ Notes:
  - All parameters are integers.
 
 """
-def equal_slices(total_slices, no_recipients, slices_each):
-    "IMPLEMENT ME"
+
+total_slices = 11
+people = 5
+slices_each = 2 
+if people * slices_each < 11:
+    print("True" ",", total_slices - (people*slices_each))
+else:
+    print("False")  
+    
+
+total_slices = 11
+people = 5
+slices_each = 3 
+if people * slices_each < 11:
+    print("True" ",", total_slices - (people*slices_each))
+else:
+    print("False" ",", "None")
+
+
+total_slices = 8
+people = 3
+slices_each = 2 
+if people * slices_each <8:
+    print("True" ",", total_slices - (people*slices_each))
+else:
+    print("False" ",", "None")
+
+
+total_slices = 8
+people = 3
+slices_each = 3 
+if people * slices_each > 11:
+    print("True" ",", total_slices - (people*slices_each))
+else:
+    print("False" ",", "None")
+
+total_slices = 24
+people = 12
+slices_each = 2 
+if people * slices_each <= 24:
+    print("True" ",", total_slices - (people*slices_each))
+else:
+    print("False")

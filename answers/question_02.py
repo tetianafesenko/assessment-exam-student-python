@@ -16,4 +16,7 @@ Notes:
 """
 
 def count_unique_chars(string_1, string_2):
-    "IMPLEMENT ME"
+    string_1 = "apple"
+    string_2 = "play"
+    len(set("string_1" + "string_2"))
+    
