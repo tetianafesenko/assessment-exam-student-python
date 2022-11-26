@@ -15,8 +15,27 @@ Notes:
 
 """
 
-def count_unique_chars(string_1, string_2):
-    string_1 = "apple"
-    string_2 = "play"
-    len(set("string_1" + "string_2"))
+string_1 = "apple"
+string_2 = "play"
+count_unique_chars = string_1 + string_2
+
+s=set(count_unique_chars)
+print('Elements:',s)
+
+
+string_1 = "sore"
+string_2 = "zebra"
+count_unique_chars = string_1 + string_2
+
+s=set(count_unique_chars)  
+l=len(s)  
+print('Unique chars:',l)
+
+string_1 = "a"
+string_2 = "soup"
+count_unique_chars = string_1 + string_2
+
+s=set(count_unique_chars)  
+l=len(s)  
+print('Unique chars:',l)
     
